@@ -26,7 +26,10 @@ const getDatos = ()=>{
     });
 }
 
-getDatos()
-.then((datos)=> console.log(datos));
+async function asincrono(){
+    const datos_asincronos = await getDatos();
+    console.log(datos_asincronos);
+}
 
+asincrono();
 console.log(getDatos());
