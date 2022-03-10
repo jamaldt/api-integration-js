@@ -18,10 +18,12 @@ const datos = [
 
 
 const getDatos = ()=>{
-    setTimeout(()=>{
+    return new Promise ((resolve,reject)=>{
+        setTimeout(()=>{
+            resolve(datos)
         return datos;
-    },1500);
-    
+        },1500);
+    });
 }
 
 console.log(getDatos());
