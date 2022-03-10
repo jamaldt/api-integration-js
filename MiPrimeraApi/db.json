@@ -1,19 +1,24 @@
 {
-    "dragon-ball":[
-        {
-            "id":1,
-            "nombre":"goku",
-            "poder":"genkidama"
-        },
-        {
-            "id":2,
-            "nombre":"freezer",
-            "poder":"death ball"
-        },
-        {
-            "id":3,
-            "nombre":"piccolo",
-            "poder":"masenko"
-        }
-    ]
+  "dragon-ball": [
+    {
+      "id": 1,
+      "nombre": "goku",
+      "poder": "genkidama"
+    },
+    {
+      "id": 2,
+      "nombre": "freezer",
+      "poder": "death ball"
+    },
+    {
+      "id": 3,
+      "nombre": "piccolo",
+      "poder": "masenko"
+    },
+    {
+      "nombre": "calos",
+      "poder": "sin poder",
+      "id": 4
+    }
+  ]
 }
