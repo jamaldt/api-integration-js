@@ -1,0 +1,14 @@
+{
+    "id":1,
+    "nombre":"goku",
+    "apellido":"genkidama",
+    "email":[
+        {
+            "personal":"micorreo@gmail.com"
+        },
+        {
+            "laboral":"micorreo.laboral@gmail.com"
+        }
+
+    ]
+}
