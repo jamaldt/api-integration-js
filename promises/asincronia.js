@@ -26,4 +26,7 @@ const getDatos = ()=>{
     });
 }
 
+getDatos()
+.then((datos)=> console.log(datos));
+
 console.log(getDatos());
