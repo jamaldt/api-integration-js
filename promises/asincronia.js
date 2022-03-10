@@ -18,7 +18,10 @@ const datos = [
 
 
 const getDatos = ()=>{
-    return datos;
+    setTimeout(()=>{
+        return datos;
+    },1500);
+    
 }
 
 console.log(getDatos());
